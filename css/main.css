@@ -1,0 +1,319 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+	font-family: 'Open Sans', calibri, arial, sans-serif;
+	font-weight: 300;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+li{
+	list-style: none;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+/* Header */
+
+header{
+	width: 100%;
+	height: 31.25em;
+	position: relative;
+	top: 0; left: 0;
+	background: #333;
+	background: url("http://devimg.com/1400x500/space") no-repeat;
+	background-size: auto;
+}
+
+.header-styles{
+	font-weight: 300;
+	color: #fff;
+}
+
+nav{
+	width: 100%;
+	height: 5em;
+	background: #222;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar{
+	margin-top: 1.7em;
+	text-align: center;
+}
+
+.nav-bar li{
+	display: inline;
+	padding: 0 15px;
+}
+
+.nav-bar a{
+	padding: 25px;
+	color: #fff;
+	font-size: 1.1em;
+	border-bottom: .30em solid transparent;
+	transition: border-bottom .25s;
+}
+
+.nav-bar a:hover{
+	border-bottom: .30em solid #009ACD;
+}
+
+.overlay{
+	width: 600px;
+	margin: 12em auto;
+	text-align: center;
+}
+
+/* About */
+
+.about{
+	width: 100%;
+	padding-top: 190px;
+	padding-bottom: 190px;
+	overflow: hidden;
+	background: url(../img/Imac_16-9.png) no-repeat;
+	background-position: 115% center;
+}
+
+.main-heading{
+	margin: 0;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.about-container{
+	margin-top: -20px;
+}
+
+.text-content{
+	color: #000;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+}
+
+.button{
+	padding: 15px 30px;
+	background: #009ACD;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0;
+	transition: background 1s;
+}
+
+.button:hover{
+	background:#4cb8dc; 
+}
+
+/* Features */
+
+.features{
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	overflow: hidden;
+	background:#4cb8dc;	
+}
+
+.feature-heading-color{
+	color: #fff;
+}
+
+.features-container{
+	margin-top: 80px;
+	color: #fff;
+	text-align: center;
+}
+
+.features-post-header{
+	font-size: 1.4em;
+}
+
+.contact{
+	width: 100%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	overflow: hidden;
+	background: url(../img/LG_G_Flex_Phone.jpg) no-repeat;
+	background-position: 0 center;
+}
+	
+.form-styles{
+	display: block;
+	max-width: 100%;
+	padding: 15px 20px; 
+	margin-bottom: 30px;
+	border: 3px solid #4cb8dc;
+	border-radius: 3px;
+	font-size: 1em;
+}
+
+footer{
+	width: 100%;
+	height: 9em;
+	margin: 0;
+	background: #4cb8dc;
+}
+
+.copyright{
+	margin-top: 3em;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+}
+
+.copyright li{
+	display: inline;
+	padding: 0 5px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
