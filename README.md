@@ -10,6 +10,6 @@ Icons provided by
 
 ![Screenshot 1](http://raw.github.com/dabhai13/template-1/master/img/screenshot-1.png)
 ![Screenshot 2](http://raw.github.com/dabhai13/template-1/master/img/screenshot-2.png)
-![Screenshot 3](http://raw.github.com/dabhai13/template-1/master/img/screenshot-3.png)
+![Screenshot 3](img/screenshot-3.png)
 ![Screenshot 4](http://raw.github.com/dabhai13/template-1/master/img/screenshot-4.png)
 ![Screenshot 4](http://raw.github.com/dabhai13/template-1/master/img/screenshot-5.png)
