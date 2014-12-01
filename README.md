@@ -8,8 +8,8 @@ Icons provided by
 
 ## Site Screenshots
 
-![Screenshot 1](http://raw.github.com/dabhai13/template-1/master/img/screenshot-1.png)
-![Screenshot 2](http://raw.github.com/dabhai13/template-1/master/img/screenshot-2.png)
-![Screenshot 3](img/screenshot-3.png)
-![Screenshot 4](http://raw.github.com/dabhai13/template-1/master/img/screenshot-4.png)
-![Screenshot 4](http://raw.github.com/dabhai13/template-1/master/img/screenshot-5.png)
+![Screenshot1](https://raw.github.com/dabhai13/template-1/master/img/screenshot1.png)
+![Screenshot2](https://raw.github.com/dabhai13/template-1/master/img/screenshot2.png)
+![Screenshot3](https://raw.githubusercontent.com/dabhai13/template-1/master/img/screenshot3.png)
+![Screenshot4](https://raw.githubusercontent.com/dabhai13/template-1/master/img/screenshot4.png)
+![Screenshot5](https://raw.githubusercontent.com/dabhai13/template-1/master/img/screenshot5.png)
